@@ -1,0 +1,5 @@
+
+{% for user in user_list %}
+<h5><a href="/user/{{user.id}}"> {{ user.name }}</a></h5>
+<h5>{{ user.user_type }}</h5>
+{% endfor %}
