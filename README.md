@@ -12,7 +12,7 @@ Django, Nginx 를 Docker 이미지로 만들어서 docker-compose로 복수 개�
 
 ### AWS RDS 사용하기
 
-![image-20220817030054869](/Users/changdongsoo/Library/Application Support/typora-user-images/image-20220817030054869.png)
+![image](https://user-images.githubusercontent.com/59868624/184950089-7906c3f3-d890-412e-9e72-9b3d31e594f1.png)
 
 ```
 DATABASES = {
@@ -44,7 +44,7 @@ pip freeze > requirements.txt
 
 ## Aws 인스턴스 사용하기
 
-![image-20220817021150588](/Users/changdongsoo/Library/Application Support/typora-user-images/image-20220817021150588.png)
+![image](https://user-images.githubusercontent.com/59868624/184950259-0727d951-cdd0-46f0-b3c8-48eaa6fc4933.png)
 
 
 
@@ -52,7 +52,7 @@ ubuntu t2.micro 를 이용하였다.
 
 배포가 아닌 Docker compose를 이용하기 위해 한것이므로 보안 그룹 에서 인바운드 규칙은 모두 열어주었다.
 
-![image-20220817021444431](/Users/changdongsoo/Library/Application Support/typora-user-images/image-20220817021444431.png)
+![image](https://user-images.githubusercontent.com/59868624/184950429-f20d8639-90b3-40cd-8fb5-6f5d57b96c8d.png)
 
 
 
